@@ -1,0 +1,32 @@
+/* Disable padding on everything by default */
+* { 
+  padding: 0;
+  margin: 0
+}
+
+.sidebar {
+  background-image: url("assets/sidebar-bg.jpg");
+  background-image: repeat-y;
+  height: 100vh;
+  width: 100px;
+}
+
+.sidebar > ul > li {
+  color: white;
+}
+
+.content {
+  float: left;
+  padding: 2px;
+}
+
+.page-header {
+  color: indigo;
+}
+
+.pride-badge {
+  position: absolute;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  bottom: 0;
+}
