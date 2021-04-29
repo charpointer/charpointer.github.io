@@ -1,32 +1,50 @@
 /* Disable padding on everything by default */
 * { 
   padding: 0;
-  margin: 0
+  margin: 0;
+
+  font-family: monospace;
+  background-color: white;
+  color: black;
 }
 
 .sidebar {
-  background-image: url("assets/sidebar-bg.jpg");
-  background-image: repeat-y;
+  background-color: purple;
   height: 100vh;
-  width: 100px;
+  width: 120px;
 }
 
 .sidebar > ul > li {
+  background-color: purple;
   color: white;
 }
 
+.sidebar > ul > li > a:visited {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  /* todo: replace flex so we don't rely on modern bloat */
+  display: flex;
+
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
 .content {
-  float: left;
   padding: 2px;
 }
 
 .page-header {
-  color: indigo;
+  color: purple;
 }
 
 .pride-badge {
+  background-color: purple;
+
   position: absolute;
-  padding-left: 10px;
+  padding-left: 25px;
   padding-bottom: 10px;
   bottom: 0;
 }
