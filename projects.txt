@@ -1,4 +1,5 @@
 haskell-study-notes=https://github.com/charpointer/haskell-study-notes
 crystal-os=https://github.com/charpointer/crystalos
-lyrebird=https://github.com/lyrebird-voice-changer/lyrebird
+lyrebird (dead)=https://github.com/lyrebird-voice-changer/lyrebird
+pridefetch=https://github.com/charpointer/pridefetch
 mirai-bot=https://github.com/charpointer/mirai-bot
